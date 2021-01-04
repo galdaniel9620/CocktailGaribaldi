@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    background-color: #131313;
+}
+
+.first-page {
+    min-height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+}
+
+#nav-bar {
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#nav-bar-1 img{
+    width: 3em;
+}
+
+#nav-bar-2 a {
+    font-size: 1.8em;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#nav-bar-3 a {
+    font-size: 1.8em;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#presentation {
+    min-height: 80vh;
+    padding: 2em 2em 2em 2em;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.presentation-section {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.text p {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.text-dif p {
+    font-size: 6em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.img-section img {
+    height:  6em; 
+}
+
+
+            /* Page 2 */
+
+#ingredients-page {
+    min-height: 100vh;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#title {
+    height: 35vh;
+    padding: 3em 3em 0 3em;
+}
+
+#title p {
+    font-size: 1.5em;
+}
+
+#title p:first-child{
+    font-size: 3em;
+}
+
+#ingredients-section {
+    height: 45vh;
+    display: flex;
+}
+
+
+#ingredients-section-1 {
+    width: 50%;
+    padding-left: 3em;
+}
+
+#ingredients-section-2 {
+    width: 50%;
+    padding-right: 3em;
+
+}
+
+#ingredients-section-1 p:first-child {
+    font-size: 3em;
+}
+
+#ingredients-section-1 p:last-child {
+    font-size: 1.2em;
+    width: 290px;
+}
+
+#ingredients-section-2 p:first-child {
+    font-size: 3em;
+}
+
+#ingredients-section-2 p:last-child {
+    font-size: 1.2em;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+
+
+            /* Page 3 */
+
+#steps-page {
+    min-height: 100vh;
+    color: whitesmoke;
+}
+
+#step-title {
+    height: 10vh;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+#steps {
+    height: 50vh;
+    padding: 2em 7em 0em 7em;
+}
+
+.step {
+    display: flex;
+    padding: 0.5em;
+}
+
+#step-2 {
+    border-top:  solid  rgb(245, 245, 245, 0.8) 0.2px;
+    border-bottom: solid  rgb(245, 245, 245, 0.8) 0.2px;
+}
+
+#step-3 {
+    border-bottom: solid rgb(245, 245, 245, 0.8) 0.2px;
+}
+
+
+.step-number{
+    font-size: 5em;
+}
+
+.step-text  {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    font-size: 1.6em;
+}
+
+
+
+            /* Contact page */
+
+#contact-page {
+    height: 32vh;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 7em;
+    display: flex;   
+}
+
+#contact-page a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#container {
+    height: 30vh;
+    display: flex;
+    width: 100%;
+    border-top:solid whitesmoke;
+    border-bottom:solid whitesmoke;
+
+}
+
+#contact-sm{
+    height: 30vh;
+    width: 50%;
+    font-size: 2em;
+}
+
+#contact-fb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    border-bottom: solid whitesmoke 1px;
+}
+
+#cantact-insta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+
+#contact-site {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    border-left: solid whitesmoke;
+}
+
+
+#final-section {
+    color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#final-section p {
+    font-size: 1.3em;
+}
+
+
+#final-section  img{
+    height: 3em;
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    /* Page two */
+
+    #title {
+        padding: 4em 1em 0 1em;
+    }
+    
+    #title p {
+        font-size: 1em;
+    }
+    
+    #title p:first-child{
+        font-size: 2em;
+    }
+    
+
+    #ingredients-section-1 {
+        padding-left: 1em;
+    }
+    
+    #ingredients-section-2 {
+        padding-right: 1em;
+    
+    }
+    
+    #ingredients-section-1 p:first-child {
+        font-size: 2em;
+    }
+    
+    #ingredients-section-1 p:last-child {
+        font-size: 0.8em;
+        width: 140px;
+    }
+    
+    #ingredients-section-2 p:first-child {
+        font-size: 1.2em;
+    }
+    
+    #ingredients-section-2 p:last-child {
+        font-size: 0.8em;
+    }
+
+
+                /* Page 3 */
+
+#steps {
+    padding: 4em 0.5em 0em 0.5em;
+
+}
+
+.step-number{
+    font-size: 1.3em;
+}
+
+.step-text  {
+    padding-left: 0.5em;
+    font-size: 0.8em;
+}
+
+#contact-sm{
+    font-size: 1em;
+}
+
+#contact-site{
+    font-size: 1.6em;
+}
+
+}
